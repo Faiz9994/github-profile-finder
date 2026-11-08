@@ -1,24 +1,27 @@
 # 🚀 GitHub Profile Finder
 
-A React-based application that allows users to search for GitHub profiles and explore their latest public repositories. Built with a cyberpunk-inspired interface.
+A React-based application to search GitHub users, explore their profiles and discover their latest public repositories. Built with a cyberpunk-inspired interface.
 
 ## 📸 Screenshots
 
-### Home Page
-![Home Page](screenshots/home.png)
+### 1. Landing Page
+![Landing Page](screenshots/01-landing-page.png)
 
-### Profile Search Results
-![Profile Results](screenshots/profile-results.png)
+### 2. GitHub Profile Card
+![Profile Card](screenshots/02-profile-card.png)
+
+### 3. Latest Repositories
+![Repositories](screenshots/03-repositories.png)
 
 ## ✨ Features
 
 - Search GitHub users by username
 - Display profile picture and user information
-- Show followers, following and public repositories
+- Show followers, following and public repository counts
 - Display the latest 5 repositories
 - Show repository stars and programming languages
 - Loading and error handling
-- Responsive cyberpunk-inspired UI
+- Cyberpunk-inspired responsive UI
 
 ## 🛠️ Tech Stack
 
@@ -36,7 +39,7 @@ Clone the repository:
 git clone https://github.com/Faiz9994/github-profile-finder.git
 ```
 
-Navigate to the project directory:
+Navigate into the project:
 
 ```bash
 cd github-profile-finder
@@ -56,12 +59,10 @@ npm run dev
 
 ## 🔗 API
 
-This project uses the public GitHub REST API:
-
-https://api.github.com/
+[GitHub REST API](https://api.github.com/)
 
 ## 👨‍💻 Author
 
 **Faiz**
 
-GitHub: https://github.com/Faiz9994
+[GitHub Profile](https://github.com/Faiz9994)

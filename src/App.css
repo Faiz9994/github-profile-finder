@@ -156,17 +156,25 @@ body {
 .profile-top {
   display: flex;
   align-items: center;
-  gap: 35px;
+  justify-content: center;
+  gap: 40px;
+  transform: translateX(160px);
 }
 
 .avatar {
-  width: 155px;
-  height: 155px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
   padding: 5px;
   border: 2px solid #00f5ff;
   box-shadow: 0 0 25px rgba(0, 245, 255, 0.4);
+}
+
+.profile-info {
+  flex: 0 1 500px;
+  text-align: left;
 }
 
 .profile-info h2 {
@@ -400,5 +408,25 @@ body {
 
   .section-heading h2 {
     font-size: 19px;
+  }
+}
+
+.main-content {
+  padding-top: 25px;
+}
+
+.hero {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 600px) {
+  .profile-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-info {
+    text-align: center;
   }
 }
