@@ -1,16 +1,67 @@
-# React + Vite
+# 🚀 GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based application that allows users to search for GitHub profiles and explore their latest public repositories. Built with a cyberpunk-inspired interface.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Home Page
+![Home Page](screenshots/home.png)
 
-## React Compiler
+### Profile Search Results
+![Profile Results](screenshots/profile-results.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Search GitHub users by username
+- Display profile picture and user information
+- Show followers, following and public repositories
+- Display the latest 5 repositories
+- Show repository stars and programming languages
+- Loading and error handling
+- Responsive cyberpunk-inspired UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- CSS
+- GitHub REST API
+- Vite
+
+## ⚙️ Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Faiz9994/github-profile-finder.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd github-profile-finder
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🔗 API
+
+This project uses the public GitHub REST API:
+
+https://api.github.com/
+
+## 👨‍💻 Author
+
+**Faiz**
+
+GitHub: https://github.com/Faiz9994
